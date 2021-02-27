@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/want-to-reads",
+      "handler": "want-to-read.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/want-to-reads/count",
+      "handler": "want-to-read.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/want-to-reads/:id",
+      "handler": "want-to-read.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/want-to-reads",
+      "handler": "want-to-read.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/want-to-reads/:id",
+      "handler": "want-to-read.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/want-to-reads/:id",
+      "handler": "want-to-read.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

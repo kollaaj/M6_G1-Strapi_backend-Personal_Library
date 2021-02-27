@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/finished-readings",
+      "handler": "finished-reading.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finished-readings/count",
+      "handler": "finished-reading.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/finished-readings/:id",
+      "handler": "finished-reading.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/finished-readings",
+      "handler": "finished-reading.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/finished-readings/:id",
+      "handler": "finished-reading.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/finished-readings/:id",
+      "handler": "finished-reading.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

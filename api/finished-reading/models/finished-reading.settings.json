@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "finished_readings",
+  "info": {
+    "name": "Finished reading",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "book": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
